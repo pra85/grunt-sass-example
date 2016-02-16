@@ -1,6 +1,6 @@
 module.exports = {
   sass: {
-    files: ['**/*.scss'],
+    files: ['src/*.scss'],
     tasks: ['sass']
     }
 };
