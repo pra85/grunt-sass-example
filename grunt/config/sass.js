@@ -2,8 +2,8 @@ module.exports = {
   main: {
     expand: true,
     cwd: 'src',
-    src: ['*.scss'],
-    dest: '.',
+    src: ['**/*.scss'],
+    dest: 'src/',
     ext: '.css'
     }
 };
